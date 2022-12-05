@@ -171,7 +171,7 @@ function agregarMetodoCalculoDescuento (producto) {
     descuento = this.precio * this.porcentajeDeDescuento;
     prec = this.precio - descuento;
     return prec;
-  };
+  }; 
   return producto;
 }
 
